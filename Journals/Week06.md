@@ -43,4 +43,17 @@ The secret.bin and secretB.bin can be seen in the screenshot below:
 <img width="944" height="868" alt="image" src="https://github.com/user-attachments/assets/c30f0653-bf18-4c60-941d-8a69ff05f36d" />
 
 
+# 2. Reflection
+## 2.1 What did I learn
 
+This week I learnt more about how Diffie-Hellman Key Exchange works and how two systems can create the same shared secret without sending the secret itself. Doing the calculations manually helped me understand how the public and private values work together. I also got more practice using OpenSSL to generate DH parameters, keys and shared secrets on Linux.
+
+## 2.2 Issues and Solutions
+
+At first I was confused with some of the formulas used in the manual DHKE calculations, mainly with the powers and mod calculations. After writing everything down step-by-step it became easier to follow and understand.
+
+I also did not have a partner for the OpenSSL part, so I created two different keypairs myself and tested the shared secret generation that way. Both generated secrets matched correctly.
+
+## 2.3 How did I improve
+
+I improved my understanding of key exchange and became more comfortable using OpenSSL commands in Linux. I also got better at following cryptographic calculations step-by-step and understanding how shared secrets are created securely between two systems.
