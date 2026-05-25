@@ -29,3 +29,18 @@ We both obtained the same secret.
 
 ## 1.2 DHKE in OpenSSL
 
+For this assignment I do not have a partner, I did however create two dhparams, two private keys and two public keys and compared those.
+For this I used "openssl genparam -algorithm DH -pkeyopt dh_param_prime_len:2048 -out dhparams.pem"
+
+I then generated private and public keys with
+openssl genpkey -paramfile dhparams.pem -out myprivate.pem
+openssl pkey -in myprivate.pem -pubout -out mypublic.pem
+I did the same for myprivateB.pem and mypublicB.pem
+
+I then compared the files with openssl pkeyutl -derive -inkey myprivate.pem -peerkey mypublicB.pem -out secret.bin
+
+The secret.bin and secretB.bin can be seen in the screenshot below:
+<img width="944" height="868" alt="image" src="https://github.com/user-attachments/assets/c30f0653-bf18-4c60-941d-8a69ff05f36d" />
+
+
+
