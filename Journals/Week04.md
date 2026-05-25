@@ -113,4 +113,18 @@ The CTR mode encrypts an IV and then counts that up for all the next plaintext b
 
 CTR is faster than CBC because you can encrypt in parallel and a system does not rely on the previous cipher block.
 
+# 2.1 What did I learn
+
+This week I learnt more about the different block cipher modes of operation and how encryption changes depending on the mode that is used. I learnt how CBC mode chains the ciphertext blocks together by using XOR operations, while CTR mode encrypts counters and works more like a stream cipher. I also got a better understanding of why ECB mode is considered insecure, because identical plaintext blocks result in the same ciphertext blocks.
+
+## 2.2 Issues and Solutions
+
+One of the main issues I had this week was understanding how CBC and CTR mode actually worked step-by-step. At first I was a bit confused on how the XOR calculations connected with the SBC lookup table and why the ciphertext blocks changed based on previous values. I solved this by manually writing out every XOR operation and going through the encryption process block-by-block until it started making more sense.
+
+I also had some confusion with CTR mode regarding the IV and the counters. After redoing the calculations a few times I understood that CTR mode first encrypts the IV and incremented counters, and then XORs those encrypted values with the plaintext blocks.
+
+## 2.3 How did I improve
+
+I improved my understanding of symmetric encryption modes and became more comfortable doing manual cryptographic calculations. I also improved at breaking encryption algorithms down into smaller steps, which made it easier to understand how CBC and CTR mode internally work. This gave me a better understanding of how modern encryption systems use different modes depending on the performance and security requirements.
+
 
