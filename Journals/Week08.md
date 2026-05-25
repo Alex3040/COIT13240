@@ -31,5 +31,4 @@ This assignment was performed in-class during a Brisbane tutorial, so no Teams w
 
 <img width="941" height="304" alt="image" src="https://github.com/user-attachments/assets/3396869a-5c40-407e-8f75-88ee831c5db1" />
 
-<img width="962" height="590" alt="image" src="https://github.com/user-attachments/assets/e5ade94e-7a1e-491a-bdae-83905f1b23a1" /># 
 
