@@ -32,3 +32,19 @@ This assignment was performed in-class during a Brisbane tutorial, so no Teams w
 <img width="941" height="304" alt="image" src="https://github.com/user-attachments/assets/3396869a-5c40-407e-8f75-88ee831c5db1" />
 
 
+# 2. Reflection
+## 2.1 What did I learn
+
+This week I learnt more about hashes and MACs in Python and how they can be used to verify integrity and authenticity. I also got some more practice using Python scripts on Linux and changing the code to test different algorithms and messages. Besides that, I learnt the difference between hex output and raw bytes output and why hex is easier for humans to read.
+
+## 2.2 Issues and Solutions
+
+At first I was a bit confused about what some of the Python examples were actually doing, especially with the HMAC verification part. After looking through the source code step-by-step and comparing the output to the code itself, it became easier to understand.
+
+I also had some small issues when modifying the hash examples because changing the algorithm slightly changed the output formatting. After testing a few different values and messages I understood the differences better.
+
+## 2.3 How did I improve
+
+I improved my understanding of hashes, MACs and HMAC verification. I also became more comfortable reading and editing Python cryptography code and understanding what the scripts are doing internally. This week also gave me more confidence using Linux terminal commands together with Python scripts.
+
+
