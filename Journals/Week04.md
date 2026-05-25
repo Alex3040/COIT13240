@@ -1,4 +1,4 @@
-# COIT13240 Journal - Week 03
+# COIT13240 Journal - Week 04
 
 # 1. Tutorial Activities
 
@@ -6,6 +6,8 @@
 
 For this assignment I had to calculate the exclusive OR of 010100 and 111001.
 The results can be seen in a table in the picture below.
+
+![alt text](Screenshots/image11.png)
 
 ## 1.2 Simple block cipher
 
