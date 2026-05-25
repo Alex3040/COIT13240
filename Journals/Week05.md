@@ -53,5 +53,18 @@ IQIBAw==
 In the picture below, it can be seen how I used OpenSSL on my virtual machine to encrypt a message for Seungeun Lee 
 <img width="1046" height="357" alt="image" src="https://github.com/user-attachments/assets/fdedfbd8-89b9-4304-82a9-dc540ff14d51" />
 
+# 2. Reflection
 
+## 2.1 What did I learn
 
+This week I learnt more about how RSA works and how public and private keys are generated. By manually calculating the RSA values, I got a better understanding of how the prime numbers, phi(n) and the exponents are connected together. I also got more experience using OpenSSL on Linux to generate keypairs and encrypt messages using another person’s public key.
+
+## 2.2 Issues and Solutions
+
+One issue I had was calculating the value for d manually, because it became confusing quite quickly. I solved this by using Python and the pow() function, which made the calculations a lot easier to understand.
+
+I also had some small issues with OpenSSL commands at first, mainly because different commands are needed depending on the key or file being used. After testing a few commands and checking the outputs carefully, I managed to get everything working properly.
+
+## 2.3 How did I improve
+
+I improved my understanding of public key cryptography and became more comfortable using RSA in both manual calculations and OpenSSL. I also improved my Linux terminal skills and got more confident using encryption related commands on my Ubuntu virtual machine.
