@@ -1,4 +1,4 @@
-# COIT13240 Journal - Week 04
+# COIT13240 Journal - Week 06
 
 # 1. Tutorial Activities
 
