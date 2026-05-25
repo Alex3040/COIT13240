@@ -7,7 +7,7 @@
 For this assignment I had to calculate the exclusive OR of 010100 and 111001.
 The results can be seen in a table in the picture below.
 
-![alt text](Screenshots/image11.png)
+![alt text](Screenshots/Image11.png)
 
 ## 1.2 Simple block cipher
 
