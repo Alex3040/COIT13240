@@ -1,0 +1,37 @@
+# COIT13240 Journal - Week 07
+
+# 1. Tutorial Activities
+
+## 1.1 Quantum Concepts
+
+1) A qubit has two base states, 0 and 1. But it can exist in a superposition of both states at the same time.
+A combination we received from our tutor is that it can be 0.8 and 0.6 at the same time. When you square them they add up to 1 full bit.
+0.8^2 and 0.6^ = 0.64 + 0.36 = 1
+
+2) When you start to measure it it will be either 0 or 1. It has a 64% chance of being zero and a 36% chance of being one.
+
+3) AES-128 normally takes 2^128 attempts and when using quantum it is only 2^64. So it does reduce it but when using bigger AES it will take longer. (AES-256 for example.)
+
+4) False. Quantum mainly focuses on secure communication methods and is not like Shor's algorithm.
+
+5) No Entanglement is useful, but it cannot send information faster than light.
+
+6) That algorithm is called Shor's algorithm
+
+7) Similar aim to key exchange, especially Diffie-Hellman. Necause BB84 helps two systems establish a shared secret key.
+
+8) It depends on the company and machine. Some companies have from 127-qubits up until 1,121 qubits (IBM).
+
+
+# 2. Reflection
+## 2.1 What did I learn
+
+This week I learnt more about quantum computing and how it connects to cryptography. I learnt that qubits can exist in multiple states at the same time and that quantum computers could become a threat to systems like RSA because of Shor’s algorithm.
+
+## 2.2 Issues and Solutions
+
+At first I found some of the quantum concepts confusing because they are very different from normal computers. I solved this by going through the examples again and reading some simpler explanations online.
+
+## 2.3 How did I improve
+
+I improved my understanding of basic quantum concepts and how they relate to cybersecurity and encryption.
